@@ -1,0 +1,56 @@
+ .container{
+
+    width: 70%;
+   min-height: 100px;
+     border: solid lightgrey;
+     margin: auto;
+     background: #83d9ef;
+     
+}
+.form{
+    width: 90%;
+    min-height: 100px;
+    margin: 10px auto;
+
+}
+.form tr,td{
+      padding: 10px;
+  text-align: auto;
+} 
+.heading{
+    text-align: center; 
+  
+
+}
+.stu_inf{
+ 
+    width: 80%;
+    padding: 10px;
+ 
+}
+.quli-table{
+     border: lightcoral;
+     padding: 10px;
+
+  text-align: auto;
+}
+
+.quli-table tr,td{
+      padding: 10px;
+      margin-left:20px ;
+   
+ 
+}
+.btn{
+    width:40%;
+    margin:10px  auto;
+    
+     text-align: center;
+}
+      
+
+ 
+
+ 
+
+

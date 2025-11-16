@@ -1,0 +1,59 @@
+.container1{
+
+    width: 80%;
+    height: 700px;
+    margin: auto;
+    background: #12fa29;
+    border: solid 2px  rgb(134, 125, 125);
+    /* background: lightskyblue; */
+    box-shadow: 5px 5px rgb(164, 161, 161);
+}
+.heading h1{
+    color: rgb(17, 37, 30);
+    margin-left: 25px;
+}
+.form{
+    width: 50%;
+    border: solid 2px  black;
+    min-height: 100px;
+    margin-left: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px rgb(29, 55, 63);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background: #a5ebca;
+}
+ 
+.table{
+
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: auto;
+}  
+.table tr,td ,input{
+    width: 250px;
+    margin-right: 5px;
+    
+}
+.select{
+    width: 257px;
+    height: 25px;
+}
+ 
+ .pi{
+
+    width: 300px;
+    height:100px;
+    background: red;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+ 
+
+
+
+ 

@@ -1,0 +1,356 @@
+				Array Assignment
+===================================================
+
+Date - 23-09-2025
+Q1. Write a Java program to input an array & display it.
+Input
+ Array Size = 5
+ Array Elements = 10 20 30 40 50
+Output
+ 10 20 30 40 50
+Explanation
+First, we take the size of the array from the user.
+Then, elements are entered one by one into the array.
+Finally, using a loop, we display all elements in the same order they were entered.
+
+
+Q2. Write a Java program to calculate the sum of all elements in an array.
+Input
+ Array Size = 5
+ Array Elements = 2 4 6 8 10
+Output
+ Sum of array elements = 30
+Explanation
+Initialize a variable sum = 0.
+Traverse the array and keep adding each element to sum.
+After the loop ends, sum will hold the total of all array elements.
+Q3. Write a Java program to display even & odd values from an array.
+Input
+ Array Size = 6
+ Array Elements = 11 20 33 42 55 60
+Output
+ Even Values = 20 42 60
+ Odd Values = 11 33 55
+Explanation
+Traverse the array element by element.
+If an element is divisible by 2, it is even. Otherwise, it is odd.
+Separate lists are displayed for even and odd values.
+
+
+Q4. Write a Java program to display even & odd index values from an array.
+Input
+ Array Size = 6
+ Array Elements = 5 10 15 20 25 30
+Output
+ Values at Even Index = 5 15 25
+ Values at Odd Index = 10 20 30
+Explanation
+Index starts from 0.
+Even index positions are 0, 2, 4, ….
+Odd index positions are 1, 3, 5, ….
+We print the values according to their index category.
+Q5. Write a Java program to count even & odd values from an array.
+Input
+ Array Size = 7
+ Array Elements = 12 17 24 39 40 55 70
+Output
+ Count of Even Values = 4
+ Count of Odd Values = 3
+Explanation
+Initialize counters evenCount = 0, oddCount = 0.
+
+
+For each element in the array
+
+
+If divisible by 2 → increase evenCount.
+Otherwise → increase oddCount.
+
+
+Final counts are displayed.
+
+
+
+
+Date - 24-09-2025
+
+Q6. Write a java program to search an element in an array , its element found or not.
+Input
+ Array = {10, 20, 30, 40, 50}
+ Element to search = 30
+Output  Element 30 found at index 2
+Explanation 
+We traverse the array and compare each element with the search key. If it matches, print found with index; otherwise print not found.
+
+
+Q7. Write a java program to display the reverse array.
+
+Input  Array = {1, 2, 3, 4, 5}
+Output  Reverse array = {5, 4, 3, 2, 1}
+Explanation 
+The last element becomes the first, and the first becomes the last by traversing from the end to the start.
+
+
+
+
+Q8. Write a java program to find missing elements in an array.
+Input  Array = {1, 2, 4, 5, 7} (numbers from 1 to 7 should be present)
+Output  Missing elements = {3, 6}
+Explanation
+Check sequence numbers one by one. If a number from 1 to maximum (7) is not in the array, it is missing.
+
+
+
+Q9. Write a java program to copy one array to another array.
+Input
+Array1 = {5, 10, 15, 20}
+Output
+Array2 = {5, 10, 15, 20}
+Explanation
+Copy each element of Array1 into Array2 using index-by-index assignment.
+
+
+
+Q10. Write a program in java to delete an element at desired position from an array.
+	Test Data 
+
+	Input the size of array  5
+
+	Input 5 elements in the array in ascending order 
+	1   2    3    4    5
+	
+	Input the position where to delete  3
+
+	Expected Output  The new list is  1 2 3 5
+
+
+
+Q11. Write a java program to give an array, find the second largest element.
+Input  Array = {12, 35, 1, 10, 34, 1}
+Output  Second largest = 34
+Explanation
+First largest is 35, second largest is the next maximum (34). We maintain two variables (largest, secondLargest).
+
+
+
+Q12. Write a program in java to insert an element at desired position from an array.
+	Test Data 
+
+	Input the size of array  6
+
+	Input 5 elements in the array in ascending order 
+	1   2    3    4    5
+	
+	Input the position where to insert  2
+	Value                                            200
+
+	Expected Output  The new list is  1 2 200 3 4 5
+
+
+
+Q13. Write a java program to display only non-zero values from an array.
+Input  Array = {1, 0, 5, 0, 7, 0, 9}
+Output  Non-zero elements = {1, 5, 7, 9}
+Explanation 
+Traverse the array and print only elements that are not equal to zero.
+
+
+
+Q14.  Write a java program to remove duplicated values from arrays.
+Input  Array = {10, 20, 20, 30, 40, 40, 50}
+Output  Unique elements = {10, 20, 30, 40, 50}
+Explanation
+Traverse the array, check if element already exists before adding to result, thus avoiding duplicates.
+
+
+
+
+Q15. Write a java program to find common elements between two arrays.
+Input
+ Array1 = {1, 2, 3, 4, 5}
+ Array2 = {3, 4, 5, 6, 7}
+Output  Common elements = {3, 4, 5}
+Explanation
+Compare each element of Array1 with all elements of Array2, if match found → it is a common element.
+
+
+
+Date :- 25-09-2025
+
+
+Q16. Write a java program to count the frequency of each element in a given array.
+Input:
+Array = {1, 2, 2, 3, 3, 3, 4}
+Output:
+ 1 → 1 time
+ 2 → 2 times
+ 3 → 3 times
+ 4 → 1 time
+Explanation:
+For each element, count how many times it occurs in the array using nested traversal.
+Q17. Write a program in java to find the majority element of an array ?
+
+	A majority element in an array of size n is an element that appears more than n/2 times (and
+
+	hence there is at most one such element).
+
+	Expected Output:
+
+	The given array is: 4  8  4  6  7  4  4  8
+
+	There are no Majority Elements in the given array
+
+Q18. Write a program in java to rotate an array by N positions ?
+
+	Expected Output:
+
+	The given array is: 0  3  6  9  12  14  18  20  22  25  27
+
+	From 4th position the values of the array are: 12 14 18 20 22 25 27 
+	Before 4th position the values of the array are: 0  3  6  9 
+	After rotating from 4th position the array is:
+
+	12 14 18 20 22 25 27 0 3  6 9
+
+Q19. Write a program in java to find the smallest missing element from a sorted array?
+		
+Expected Output :
+		The given array is : 0 1 3 4 5 6 7 9
+		The missing smallest element is: 2
+
+Q20. Write a Java program to sort a given array in ascending & descending order.
+
+	 Input : 	Array = [12, 5, 9, 34, 1]
+	Output : 	Ascending Order: [1, 5, 9, 12, 34]
+Descending Order: [34, 12, 9, 5, 1]
+
+Explanation:
+Sorting means arranging elements in a particular order.
+In ascending order, numbers are arranged from smallest to largest.
+For example: 1 < 5 < 9 < 12 < 34.
+In descending order, numbers are arranged from largest to smallest.
+For example: 34 > 12 > 9 > 5 > 1.
+The program should first sort the array in ascending order, then print the reverse of that order for descending.
+======================================================================
+
+Date :- 26-09-2025
+
+Q21. Move all zeros in an array to the end while maintaining the relative order of non-zero elements.
+	Input :- arr = [0, 1, 0, 3, 12]
+	Output :- arr = [1, 3, 12, 0, 0]
+Explanation:
+All non-zero elements [1, 3, 12] retain their original order.
+All zeros are moved to the end of the array.
+
+Q22.Write a java program count all pairs of elements in an array whose sum is equal to a given number.
+	Input :- arr = [1, 5, 7, -1, 5]        sum = 6
+Output :- 3
+Explanation:
+Pairs whose sum = 6 are:
+(1, 5) → first occurrence
+(7, -1)
+(1, 5) → second occurrence (from the second 5)
+Total pairs = 3
+
+Q23. Write a java program to find union array of two unsorted array.
+	Input :-  arr1 = [1, 2, 3]  
+   arr2 = [2, 3, 4, 5]
+	Output :- [1, 2, 3, 4, 5]
+
+Explanation:
+Union combines all elements from both arrays.
+Duplicates are removed to keep only unique elements.
+Q24.Rearrange the array so that even and odd numbers alternate. Assume the number of even and odd elements is equal.
+	Input :- arr = [1, 2, 3, 4, 5, 6]
+	Output :-  [2, 1, 4, 3, 6, 5]
+Explanation:
+Even and odd elements are rearranged to appear alternately: Even → Odd → Even → Odd.
+The relative order within even and odd groups may not be important, but alternation is maintained.
+Q25. Write a java program to replace all negative numbers in an array with 0.	
+	Input :- arr = [2, -3, 4, -1, 5]
+	Output :-  [2, 0, 4, 0, 5]
+Explanation:
+Each negative element is replaced with 0.
+Non-negative elements remain unchanged.
+
+======================================================================
+
+Date :- 27-09-2025
+
+Q26. Replace All Elements Divisible by 3 with -1.
+Input: [3, 6, 7, 9, 10]
+Output: [-1, -1, 7, -1, 10]
+
+
+Explanation:
+ Elements divisible by 3 are 3, 6, 9. These are replaced with -1. Other elements remain unchanged.
+Q27. Replace First and Last Element with 0.
+Input:[5, 3, 7, 2]
+Output: [0, 3, 7, 0]
+
+
+Explanation:
+ The first element (5) and the last element (2) are replaced with 0. Middle elements remain the same.
+Q28. Replace all elements in the array that are multiples of 5 with the number 5 itself.
+Input: [10, 12, 15, 17, 20]
+Output: [5, 12, 5, 17, 5]
+
+
+Explanation:
+
+
+10 is divisible by 5 → replaced with 5.
+12 is not divisible by 5 → unchanged.
+15 is divisible by 5 → replaced with 5.
+17 is not divisible by 5 → unchanged.
+20 is divisible by 5 → replaced with 5.
+Q29. Check whether the given array is a palindrome.
+Input: {1, 2, 3, 2, 1}
+Output: true
+
+
+Explanation:
+ A palindrome reads the same forward and backward.
+ Forward: 1 2 3 2 1
+ Backward: 1 2 3 2 1
+ Since both are the same, the array is a palindrome.
+Q30. Return the first element that repeats in the array.
+Input: {10, 5, 3, 4, 3, 5, 6}
+Output: First repeating element is 5
+
+
+Explanation:
+
+
+Traverse from left:
+10 → first time.
+5 → first time.
+3 → first time.
+4 → first time.
+3 → already seen earlier → repeating, but not the first repeating (we must check carefully).
+5 → this was the earliest element that repeats.
+
+
+Therefore, the first repeating element is 5.
+Q31. Create a new array where each element is the square of the original.
+Input: arr = [2, 4, 6, 8]
+Output: newArr = [4, 16, 36, 64]
+Explanation: For each index, calculate arr[i] * arr[i] and store it in the new array.
+Q32. Replace each element with its factorial.
+Input: arr = [3, 4, 5]
+Output: arr = [6, 24, 120]
+Explanation: For each element, calculate factorial using repeated multiplication, and update the array element with this value.
+Q33. Count the number of prime numbers in an array.
+Input: arr = [2, 5, 6, 9, 11]
+Output: Count of prime numbers = 3
+Explanation: Check each element if it is prime (only divisible by 1 and itself), and count such elements.
+Q34. Count the number of Perfect numbers in an array.
+Input: arr = [6, 28, 10, 12, 496]
+Output: Count of Perfect numbers = 3
+Explanation: A Perfect number is equal to the sum of its proper divisors (excluding itself). For each element, find sum of divisors and compare with the number, then count.
+
+
+
+
+
+

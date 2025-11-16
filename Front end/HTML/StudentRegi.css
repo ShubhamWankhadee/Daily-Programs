@@ -1,0 +1,24 @@
+
+*{
+ background: #c5e8ec;   
+}
+.container{
+    
+    width: 80%;
+    min-height: 650px;
+    border: solid 2px black;
+    margin: auto;
+    padding: 25px ;
+}
+
+.form{
+    min-height: 100px;
+    width: 40%;
+    border: solid 2px black;
+    margin: auto;
+    padding: 10px;
+}
+.heading{
+    text-align: center;
+    
+}

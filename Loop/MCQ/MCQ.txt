@@ -1,0 +1,628 @@
+Q1. What will be output of the given code
+
+int n = 1234, sum = 0;
+while(n>0){
+    sum += n % 10;
+    n = n/10;
+}
+System.out.println(sum);
+
+Q2. What will be output of the given code
+
+int n = 5, fact = 1;
+for(int i=1;i=n;i++){
+    fact = i;
+}
+System.out.println(fact);
+
+Q3. What will be output of the given code
+
+int n = 6, count = 0;
+for(int i=1;i=n;i++){
+    if(n % i == 0) count++;
+}
+System.out.println(count);
+
+Q4. What will be output of the given code
+
+int n = 12345, rev = 0;
+while(n  0){
+    rev = rev10 + n%10;
+    n = 10;
+}
+System.out.println(rev);
+
+Q5. What will be output of the given code
+
+int n = 10, sum = 0;
+for(int i=1;i=n;i++){
+    if(i%2==0) sum += i;
+}
+System.out.println(sum);
+
+Q6. What will be output of the given code
+
+int a = 0, b = 1, n = 6;
+for(int i=1;i=n;i++){
+    int c = a + b;
+    a = b; b = c;
+}
+System.out.println(b);
+
+Q7. What will be output of the given code
+
+int n = 12345, count = 0;
+while(n  0){
+    int d = n%10;
+    if(d%2==0) count++;
+    n = 10;
+}
+System.out.println(count);
+
+Q8. What will be output of the given code
+
+int n = 4, result = 1;
+for(int i=1;i=n;i++){
+    result = ii;
+}
+System.out.println(result);
+
+Q9. What will be output of the given code
+
+int n = 7, sum = 0;
+for(int i=1;i=n;i+=2){
+    sum += ii;
+}
+System.out.println(sum);
+
+Q10. What will be output of the given code
+
+int n = 20;
+for(int i=2;i=n;i+=2){
+    if(i%4==0) System.out.print(i+ );
+}
+
+Q11. What will be output of the given code
+
+int n = 50, sum = 0;
+for(int i=1;i=n;i++){
+    if(i%3==0 && i%5==0) sum += i;
+}
+System.out.println(sum);
+
+Q12. What will be output of the given code
+
+int n = 1234, product = 1;
+while(n0){
+    product = n%10;
+    n=10;
+}
+System.out.println(product);
+
+Q13. What will be output of the given code
+
+int n = 10;
+for(int i=n;i=1;i--){
+    if(i%3==0) System.out.print(i+ );
+}
+
+Q14. What will be output of the given code
+
+int n = 15, c = 0;
+for(int i=1;i=n;i++){
+    if(i%2!=0 && i%3!=0) c++;
+}
+System.out.println(c);
+
+Q15. What will be output of the given code
+
+int n = 5, sum = 0;
+for(int i=1;i=n;i++){
+    sum += iii;
+}
+System.out.println(sum);
+
+Q16. What will be output of the given code
+
+int n = 10, sum = 0;
+for(int i=1;i=n;i++){
+    if(i%4==0  i%6==0) sum+=i;
+}
+System.out.println(sum);
+
+Q17. What will be output of the given code
+
+int n=100, c=0;
+for(int i=1;i=n;i++){
+    if(ii = 100) c++;
+}
+System.out.println(c);
+
+Q18. What will be output of the given code
+
+int n=12345, sum=0;
+while(n0){
+    int d=n%10;
+    if(d%2!=0) sum+=d;
+    n=10;
+}
+System.out.println(sum);
+
+Q19. What will be output of the given code
+
+int n=5, res=0;
+for(int i=1;i=n;i++){
+    res+=i2;
+}
+System.out.println(res);
+
+Q20. What will be output of the given code
+
+int n=6, a=1;
+for(int i=1;i=n;i++){
+    a+=i;
+}
+System.out.println(a);
+
+Q21. What will be output of the given code
+
+int n = 9876, sum = 0;
+while(n0){
+    int d=n%10;
+    if(d%2==0) sum+=dd;
+    n=10;
+}
+System.out.println(sum);
+
+Q22. What will be output of the given code
+
+int n=4321, res=1;
+while(n0){
+    int d=n%10;
+    if(d2) res=d;
+    n=10;
+}
+System.out.println(res);
+
+Q23. What will be output of the given code
+
+int n=4567, count=0;
+while(n0){
+    int d=n%10;
+    if(d%2!=0 && d5) count++;
+    n=10;
+}
+System.out.println(count);
+
+Q24. What will be output of the given code
+
+int n=56789,sum=0;
+while(n0){
+    int d=n%10;
+    sum+=d;
+    if(sum15) break;
+    n=10;
+}
+System.out.println(sum);
+
+Q25. What will be output of the given code
+
+int n=10203,prod=1;
+while(n0){
+    int d=n%10;
+    if(d!=0) prod=d;
+    n=10;
+}
+System.out.println(prod);
+
+Q26. What will be output of the given code
+
+int n=32145,rev=0;
+while(n0){
+    int d=n%10;
+    if(d%2!=0) rev=rev10+d;
+    n=10;
+}
+System.out.println(rev);
+
+Q27. What will be output of the given code
+
+int n=1111,count=0;
+while(n0){
+    if(n%10==1) count++;
+    n=10;
+}
+System.out.println(countcount);
+
+Q28. What will be output of the given code
+
+int n=7845,max=0;
+while(n0){
+    int d=n%10;
+    if(dmax) max=d;
+    n=10;
+}
+System.out.println(max-2);
+
+Q29. What will be output of the given code
+
+int n=22245,c=0;
+while(n0){
+    if(n%10==2) c++;
+    n=10;
+}
+System.out.println(c+1);
+
+Q30. What will be output of the given code
+
+int n=1357, sum=0;
+while(n0){
+    int d=n%10;
+    sum+=(dd);
+    n=10;
+}
+System.out.println(sum2);
+
+Q31. What will be output of the given code
+
+int n=987,count=0;
+while(n0){
+    int d=n%10;
+    if(d5) count+=d;
+    n=10;
+}
+System.out.println(count);
+
+Q32. What will be output of the given code
+
+int n=5,sum=0;
+while(n=25){
+    sum+=n;
+    n+=5;
+}
+System.out.println(sum);
+
+Q33. What will be output of the given code
+
+int n=4444,sum=0;
+while(n0){
+    sum+=n%10;
+    n=10;
+}
+System.out.println(sum2);
+
+Q34. What will be output of the given code
+
+int n=9871,sum=0;
+while(n0){
+    int d=n%10;
+    if(d5) sum+=d;
+    n=10;
+}
+System.out.println(sum);
+
+Q35. What will be output of the given code
+
+int n=102030,sum=0;
+while(n0){
+    if(n%10!=0) sum+=n%10;
+    n=10;
+}
+System.out.println(sum);
+
+Q36. What will be output of the given code
+
+int n=27,sum=0;
+while(n0){
+    sum+=n%3;
+    n=3;
+}
+System.out.println(sum);
+
+Q37. What will be output of the given code
+
+int n=2456,prod=1;
+while(n0){
+    int d=n%10;
+    if(d%2==0) prod=d;
+    n=10;
+}
+System.out.println(prod);
+
+Q38. What will be output of the given code
+
+int n=100,sum=0;
+while(n0){
+    sum+=n%10n-2;
+    n=10;
+}
+System.out.println(sum+1);
+
+Q39. What will be output of the given code
+
+int n=2345,sum=0;
+while(n0){
+    sum+=(n%10)2(n10);
+    n=10;
+}
+System.out.println(sum);
+
+Q40. What will be output of the given code
+
+int n=121,sum=0;
+while(n0){
+    sum+=(n%10);
+    n=10;
+}
+System.out.println(sumsum);
+
+Q41. What will be output of the given code
+
+int sum=0;
+for(int i=1;i=5;i++){
+    sum+=iii;
+}
+System.out.println(sum-10);
+
+Q42. What will be output of the given code
+
+int count=0;
+for(int i=10;i=30;i+=2){
+    if(i%3==0) count++;
+}
+System.out.println(count);
+
+Q43. What will be output of the given code
+
+int prod=1;
+for(int i=1;i=4;i++){
+    prod=i+1;
+}
+System.out.println(prod);
+
+
+
+Q44. What will be output of the given code
+
+int sum=0;
+for(int i=5;i=20;i+=5){
+    sum+=i;
+}
+System.out.println(sum2);
+
+Q45. What will be output of the given code
+
+int c=0;
+for(int i=1;i=3;i++){
+    for(int j=1;j=3;j++){
+        if((i+j)%2==0) c++;
+    }
+}
+System.out.println(c);
+
+Q46. What will be output of the given code
+
+int sum=0;
+for(int i=1;i=10;i++){
+    if(i%4==0  i%5==0) sum+=i;
+}
+System.out.println(sum);
+
+Q47. What will be output of the given code
+
+int n=7,res=0;
+for(int i=1;i=n;i++){
+    res+=i2+1;
+}
+System.out.println(res);
+
+Q48. What will be output of the given code
+
+int count=0;
+for(int i=1;i=4;i++){
+    for(int j=i;j=4;j++){
+        if((ij)%2==0) count++;
+    }
+}
+System.out.println(count);
+
+Q49. What will be output of the given code
+
+int sum=0;
+for(int i=3;i=15;i+=3){
+    if(i%2!=0) sum+=i;
+}
+System.out.println(sum);
+
+Q50. What will be output of the given code
+
+int fact=1;
+for(int i=2;i=6;i+=2){
+    fact=i;
+}
+System.out.println(fact);
+
+Q51. What will be output of the given code
+
+int c=0;
+for(int i=1;i=3;i++){
+    for(int j=1;j=3;j++){
+        if(i!=j) c+=i+j;
+    }
+}
+System.out.println(c);
+
+Q52. What will be output of the given code
+
+int sum=0;
+for(int i=50;i=10;i-=10){
+    sum+=i5;
+}
+System.out.println(sum);
+
+Q53. What will be output of the given code
+
+int prod=1;
+for(int i=1;i=5;i++){
+    if(i%2!=0) prod=i;
+}
+System.out.println(prod);
+
+Q54. What will be output of the given code
+
+int c=0;
+for(int i=2;i=5;i++){
+    for(int j=1;j=3;j++){
+        if((i+j)%3==0) c++;
+    }
+}
+System.out.println(c);
+
+Q55. What will be output of the given code
+
+int n=100,sum=0;
+for(int i=n;i0;i=10){
+    sum+=i%10;
+}
+System.out.println(sum);
+
+Q56. What will be output of the given code
+
+int sum=0;
+for(int i=1;i=20;i++){
+    if(i%3!=0 && i%4!=0) sum+=i;
+}
+System.out.println(sum);
+
+Q57. What will be output of the given code
+
+int n=1,sum=0;
+for(int i=1;i=4;i++){
+    n=i;
+    sum+=n;
+}
+System.out.println(sum);
+
+Q58. What will be output of the given code
+
+int c=0;
+for(int i=1;i=4;i++){
+    for(int j=1;j=2;j++){
+        if((ij)%2!=0) c+=j;
+    }
+}
+System.out.println(c);
+
+Q59. What will be output of the given code
+
+int sum=0;
+for(int i=10;i=50;i+=10){
+    sum+=i%7;
+}
+System.out.println(sum);
+
+Q60. What will be output of the given code
+
+int n=8,sum=0;
+for(int i=n;i=1;i--){
+    if(i%2==0) sum+=ii;
+}
+System.out.println(sum);
+
+Q61. What will be output of the given code
+
+int n=1234,sum=0;
+do{
+    sum+=n%10;
+    n=10;
+}while(n0);
+System.out.println(sum2);
+
+Q62. What will be output of the given code
+
+int i=1,sum=0;
+do{
+    sum+=ii;
+    i++;
+}while(i=5);
+System.out.println(sum);
+
+Q63. What will be output of the given code
+
+int n=987,c=0;
+do{
+    int d=n%10;
+    if(d5) c+=d;
+    n=10;
+}while(n0);
+System.out.println(c);
+
+Q64. What will be output of the given code
+
+int n=1111,prod=1;
+do{
+    if(n%10==1) prod=2;
+    n=10;
+}while(n0);
+System.out.println(prod);
+
+Q65. What will be output of the given code
+
+int i=2,sum=0;
+do{
+    sum+=i;
+    i+=2;
+}while(i=10);
+System.out.println(sum);
+Q66. What will be output of the given code
+
+int c=0;
+int i=1;
+do{
+    int j=1;
+    do{
+        if((i+j)%2!=0) c++;
+        j++;
+    }while(j=3);
+    i++;
+}while(i=2);
+System.out.println(c);
+
+Q67. What will be output of the given code
+
+int n=12345,res=0;
+do{
+    int d=n%10;
+    if(d%2!=0) res+=dd;
+    n=10;
+}while(n0);
+System.out.println(res);
+
+Q68. What will be output of the given code
+
+int n=10,prod=1;
+do{
+    if(n%2==0) prod=n2;
+    n--;
+}while(n0);
+System.out.println(prod);
+
+Q69. What will be output of the given code
+
+int i=5,sum=0;
+do{
+    sum+=i3;
+    i--;
+}while(i=1);
+System.out.println(sum);
+
+Q70. What will be output of the given code
+
+int n=9,sum=0;
+do{
+    if(n%3==0) sum+=nn;
+    n--;
+}while(n=1);
+System.out.println(sum);
+
+

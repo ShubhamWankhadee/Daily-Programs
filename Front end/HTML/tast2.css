@@ -1,0 +1,53 @@
+.container{
+    width: 80%;
+    height: 700px;
+    background: #97cc3d;
+    margin: auto;
+    border: solid 2px rgb(24, 41, 15);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 5px 5px rgb(5, 113, 10);
+}
+
+.heading{
+    text-align: center;
+    padding-top:2px ;
+}
+.form{
+    width: 50%;
+    min-height: 100px;
+    
+    margin-left:30px;
+    border: rgb(10, 18, 10);
+}
+.table{
+   font-size: 20px;
+    
+}
+.table input{
+    width: 250px;
+    margin-left: 70px;
+    height: 20px;
+}
+.select1{
+    width: 257px;
+    margin-left: 70px;
+    height: 20px;
+
+}
+.select2{
+
+      width: 100px;
+    margin-left: 70px;
+    height: 20px;  
+}
+
+.select3{
+    width: 257px;
+    margin-left: 70px;
+    height: 20px;
+
+}
