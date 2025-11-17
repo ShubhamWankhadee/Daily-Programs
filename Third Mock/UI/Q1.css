@@ -1,0 +1,64 @@
+.container{
+
+    width: 80%;
+    margin: auto;
+    min-height: 300px;
+   
+}
+.form{
+    width: 80%;
+    min-height: 100px;
+    
+    margin: 10px auto;
+}
+.header{
+    margin: 5px 5px;
+}
+.table{
+   
+     width: 99%;
+    min-height: 100px;
+    
+    margin: 10px auto;
+}
+#inputext{
+    width: 400px;
+}
+#rev{
+
+    width: 500px;
+}
+#inpu  {
+     width: 99%;
+     height: 40px;
+     
+}
+#dow{
+    font-size: small;
+}
+#checkbox{
+    size: 40px;
+}
+#sign{
+    text-align: center;
+    height: 100px;
+    width: 400px;
+    font-size: large;
+}
+ #datee{
+    
+    height: 30px;
+    width: 100%;
+ }
+ #clear{
+
+    margin-left: 360px;
+ }
+ #sub{
+    height: 40px;
+    width: 100px;
+    background: lawngreen ;
+    margin-left: 400px;
+    margin-top: 10px;
+ }
+ 

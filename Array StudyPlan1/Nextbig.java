@@ -18,19 +18,17 @@ public class Nextbig{
 		for(int i=0;i<arr.length;i++){ 
 		 boolean flag = true;
 			for(int j=i+1;j<arr.length;j++){
-				 
-					 
+				
 				if(arr[i] ==  arr[j]){
 				 flag = false;
 				  arr[j] =-1;
 				
-				}
-				 
+				} 
 				
 			}
 			 if(flag && arr[i]!=-1){
 					 System.out.print(" "+arr[i]);
-				 }
+			 }
 			 
 		}
 		 
