@@ -63,5 +63,6 @@ public class Q25{
 		 int a[]= {1, 2, 1, 3, 1};
 		 int b[]= {3, 1, 3, 4, 1};
 		  obj.setValue(a,b);
+		  obj.Sorting();
 	}
 }
